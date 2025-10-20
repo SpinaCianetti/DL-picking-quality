@@ -1,0 +1,10 @@
+Norcia_2016/20250224C_cont_SSST/Norcia_2016_Tan2021_smooth_SSST PN-IN_005_EVENTS_2016_304
+Start iteration 0/-1 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20250224C_cont_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr0/PN-IN_005_EVENTS_2016_304/Norcia_2016*sum*hyp &
+
+# cleanup commands
+# WARNING: the following assume -1 ITERATION_MAX iterations and ssst_corr-1 is used for definitive locations and later coherence processing.
+declare -i ITER_SSST=-1-1
+rm -r /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20250224C_cont_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr[0-]
+rm -r /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20250224C_cont_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr[1--1]

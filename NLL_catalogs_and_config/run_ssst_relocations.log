@@ -1,0 +1,29 @@
+Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST NEW_PN_INSTANCE28
+Start iteration 0/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr0/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+    Running Loc2ssst  CharDist=9999.000 /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr0/NEW_PN_INSTANCE28/Tan2021_smooth
+Start iteration 1/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr1/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+    Running Loc2ssst  CharDist=16.000 /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr1/NEW_PN_INSTANCE28/Tan2021_smooth
+Start iteration 2/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr2/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+    Running Loc2ssst  CharDist=8.000 /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr2/NEW_PN_INSTANCE28/Tan2021_smooth
+Start iteration 3/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr3/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+    Running Loc2ssst  CharDist=4.000 /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr3/NEW_PN_INSTANCE28/Tan2021_smooth
+Start iteration 4/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr4/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+    Running Loc2ssst  CharDist=2.000 /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr4/NEW_PN_INSTANCE28/Tan2021_smooth
+Start iteration 5/4 =================================
+    Running NLLoc:
+java net.alomax.seismicity.Seismicity /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr5/NEW_PN_INSTANCE28/Norcia_2016*sum*hyp &
+
+# cleanup commands
+# WARNING: the following assume 3 iterations and ssst_corr3 is used for definitive locations and later coherence processing.
+rm -r /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/ssst_corr[012]
+rm -r /Users/anthony/work_temp/nlloc_tmp/Norcia_2016/20240704C_SSST/Norcia_2016_Tan2021_smooth_SSST/loc_ssst_corr[123]
